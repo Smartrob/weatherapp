@@ -21,31 +21,31 @@ async function WeatherData(city) {
     // document.getElementById("weatherName").innerHTML = data.weather[0].main;
 
     if (data.weather[0].main == "Clear" ){
-        weatherIcon.src = "images/clear.png";
+        weatherIcon.src = "clear.png";
         // weathername.innerHTML = "Clear";
     }
     else if (data.weather[0].main == "Clouds" ){
-        weatherIcon.src = "images/clouds.png"
+        weatherIcon.src = "clouds.png"
         // weathername.innerHTML = "Clouds";
     }
     else if (data.weather[0].main == "Drizzle" ){
-        weatherIcon.src = "images/drizzle.png"
+        weatherIcon.src = "drizzle.png"
         // weathername.innerHTML = "Drizzle";
     }
     else if (data.weather[0].main == "Mist" ){
-        weatherIcon.src = "images/mist.png"
+        weatherIcon.src = "mist.png"
         // weathername.innerHTML = "Mist";
     }
     else if (data.weather[0].main == "Rain" ){
-        weatherIcon.src = "images/rain.png"
+        weatherIcon.src = "rain.png"
         // weathername.innerHTML = "Rain";
     }
     else if (data.weather[0].main == "Snow" ){
-        weatherIcon.src = "images/snow.png"
+        weatherIcon.src = "snow.png"
         // weathername.innerHTML = "Snow";
     }
     else if (data.weather[0].main == "Haze" ){
-        weatherIcon.src = "images/haze.png"
+        weatherIcon.src = "haze.png"
         // weathername.innerHTML = "Haze";
     }
 }
